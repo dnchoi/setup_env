@@ -1,5 +1,12 @@
 # Server Setting Env
 
+## Clone this repository
+```bash
+sudo apt install git wget curl
+
+git clone --recurse-submodules https://github.com/dnchoi/setup_env.git
+```
+
 ## terminal & ssh & git  setting 
 ```bash
 mv zshrc .zshrc
