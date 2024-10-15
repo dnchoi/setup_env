@@ -1,0 +1,8 @@
+[user]
+	email = dongnyeokc@gmail.com
+	name = dnchoi
+[credential]
+	helper = cache
+[safe]
+	directory = /home/dnchoi/Documents/project/ilsan/triton-client-pyapp
+	directory = /home/dnchoi/Documents/fz_vc_utils
