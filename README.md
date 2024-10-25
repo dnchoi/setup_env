@@ -7,7 +7,7 @@ sudo apt install git wget curl
 git clone --recurse-submodules https://github.com/dnchoi/setup_env.git
 ```
 
-## terminal & ssh & git  setting 
+## terminal & ssh & git  setting
 ```bash
 mv zshrc .zshrc
 mv p10k.zsh .p10k.zsh
@@ -23,14 +23,15 @@ mv ssh .ssh
 sudo chmod 777 -R *
 ```
 
+### install cmake higher version
+```bash
+sudo apt install libssl-dev -y
+sudo cmake_install.sh
+```
+
 ### install cuda
 ```bash
 ./cuda_installer.sh 11.1 8.0.5
-```
-
-### install cmake higher version
-```bash
-sudo cmake_install.sh
 ```
 
 ### install opencv
